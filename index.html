@@ -10,110 +10,191 @@
 <body>
 
   <header class="header">
-    <div class="container">
-      <h1 class="logo">ReciclaTech</h1>
-      <nav>
-        <ul class="nav-list">
-          <li><a href="#como-funciona">Como Funciona</a></li>
-          <li><a href="#doar">Doar</a></li>
-          <li><a href="#adquirir">Adquirir</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <div class="container">
+     <img src="./img/Frame.png" alt="Logo"/>
+    <h1 class="logo">ReciclaTech</h1>
+       <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#doar">Doar</a></li>
+        <li><a href="#adquirir">Adquirir</a></li>
+        <li><a href="#call-to-action">Começar Agora</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-  <section class="hero">
-    <div class="container">
+<section class="hero">
+  <div class="container hero-layout">
+    <div class="hero-text">
       <h2>Dê uma segunda vida aos seus eletrônicos!</h2>
-      <p>Conectamos pessoas que querem doar eletrônicos com quem precisa deles. Simples, gratuito e sustentável!</p>
-      <!-- Imagem: símbolo de reciclagem com placas PCB -->
-     <img src="img/simbolo-de-reciclagem-feito-de-placas-de-circuitos-eletronicos 1.png" alt="Símbolo de reciclagem com placas eletrônicas" />
-      <a href="#doar" class="btn-primary">Começar Agora</a>
-    </div>
-  </section>
-
-  <section class="stats">
-    <div class="container">
-      <div class="stat">
-        <h3>2.5k+</h3>
-        <p>Eletrônicos doados</p>
-      </div>
-      <div class="stat">
-        <h3>1.8k+</h3>
-        <p>Famílias beneficiadas</p>
-      </div>
-      <div class="stat">
-        <h3>95%</h3>
-        <p>Satisfação dos usuários</p>
+      <p>Conectamos pessoas que querem doar eletrônicos em bom estado com quem precisa deles. Simples, gratuito e sustentável!</p>
+      <div class="hero-buttons">
+        <a href="#doar" class="btn btn-primary">Quero Doar</a>
+        <a href="#adquirir" class="btn btn-secondary">Quero Adquirir</a>
       </div>
     </div>
-  </section>
+    <div class="hero-image">
+      <img src="./img/simbolo-de-reciclagem-feito-de-placas-de-circuitos-eletronicos 1.png" alt="Reciclagem eletrônica" />
+    </div>
+  </div>
+</section>
 
-  <section class="how-it-works" id="como-funciona">
-    <div class="container">
-      <h2>Como funciona?</h2>
-      <div class="steps">
-        <div class="step">
-          <!-- Ícone: presente verde -->
-          <img src="img/Doadores.png" alt="Ícone de presente" />
-          <h3>Para Doadores</h3>
-            <ul>
-                <li>Escolha os eletrônicos que deseja doar</li>
-                <li>Preencha o formulário com as informações</li>
-                <li>Aguarde o interesse de alguém</li>
-                <li>Agende a entrega ou envio</li>
-                <li>Veja seu eletrônico ganhar nova vida</li>
-            </ul>
+<section class="stats">
+  <div class="container">
+    <div class="stat">
+      <h3>2.5k+</h3>
+      <p>Eletrônicos doados</p>
+    </div>
+    <div class="stat">
+      <h3>1.8k+</h3>
+      <p>Famílias beneficiadas</p>
+    </div>
+    <div class="stat">
+      <h3>95%</h3>
+      <p>Satisfação dos usuários</p>
+    </div>
+  </div>
+</section>
+
+<section class="categories">
+  <div class="container">
+    <h2>Produtos disponíveis</h2>
+    <p>Categorias mais populares</p>
+    <div class="category-list">
+      <div class="category">
+        <img src="img/Fone.png" alt="Fones">
+        <h3>Fones</h3>
+        <p>Fones em ótimo estado, prontos pra uso.</p>
+        <a href="#adquirir" class="btn btn-tertiary">Quero adquirir</a>
+      </div>
+      <div class="category">
+        <img src="./img/Notebook.png" alt="Notebooks">
+        <h3>Notebooks</h3>
+        <p>Notebooks funcionando direitinho, prontos pra você usar.</p>
+        <a href="#adquirir" class="btn btn-tertiary">Quero adquirir</a>
+      </div>
+      <div class="category">
+        <img src="./img/Smartphones.png" alt="Smartphones">
+        <h3>Smartphones</h3>
+        <p>Celulares em ótimo estado, prontos pra uma nova jornada.</p>
+        <a href="#adquirir" class="btn btn-tertiary">Quero adquirir</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="how-it-works" id="como-funciona">
+  <div class="container">
+    <h2>Como funciona?</h2>
+    <p>É mais fácil que trocar a pilha do controle!</p>
+    <div class="columns">
+      <div class="column">
+         <img src="img/Doadores.png" alt="Ícone de presente" />
+        <h3>Para Doadores</h3>
+        <p class="subtitle">Transforme lixo eletrônico em tesouro de alguém.</p>
+        <ol>
+          <li><strong>Cadastre seu eletrônico:</strong> Tire umas fotos, descreva o estado e pronto!</li>
+          <li><strong>Aguarde o match:</strong> Alguém vai se interessar pelo seu item.</li>
+          <li><strong>Combine a entrega:</strong> Vocês decidem como fazer a entrega.</li>
+        </ol>
+      </div>
+
+      <div class="column">
+        <img src="img/Adquirentes.png" alt="Ícone de coração" />
+        <h3>Para Adquirentes</h3>
+        <p class="subtitle">Encontre seu eletrônico dos sonhos sem pagar nada.</p>
+        <ol>
+          <li><strong>Explore os itens:</strong> Navegue pelos eletrônicos disponíveis.</li>
+          <li><strong>Demonstre interesse:</strong> Clique em “Tenho interesse” no item.</li>
+          <li><strong>Receba seu novo gadget:</strong> Combine com o doador e seja feliz!</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <h2>O que o pessoal tá falando?</h2>
+    <p>Histórias reais de quem já usou</p>
+    <div class="testimonial-list">
+      <div class="testimonial">
+        <img src="./img/star.png" alt="5 estrelas" class="stars" />
+        <p>“Doei meu notebook antigo e em 2 dias já tinha alguém interessado! Ver a felicidade do estudante que recebeu não tem preço! 👏”</p>
+        <h4>João Santos</h4>
+        <div class="role">
+          <img src="./img/icon_Doador.png" alt="Ícone de presente" />
+          <span>Doador</span>
         </div>
-        <div class="step">
-          <!-- Ícone: coração azul -->
-          <img src="img/Adquirentes.png" alt="Ícone de coração" />
-          <h3>Para Adquirentes</h3>
-            <ul>
-                <li>Explore os eletrônicos disponíveis</li>
-                <li>Preencha o formulário de interesse</li>
-                <li>Aguarde a confirmação do doador</li>
-                <li>Combine a entrega ou envio</li>
-                <li>Receba e transforme sua rotina</li>
-            </ul>
+      </div>
+      <div class="testimonial">
+        <img src="./img/star.png" alt="5 estrelas" class="stars" />
+        <p>“Consegui um iPhone 12 em perfeito estado! A dona anterior cuidou super bem. Economizei uma grana e ainda ajudei o meio ambiente! 🌱”</p>
+        <h4>Maria Silva</h4>
+        <div class="role">
+          <img src="./img/icon_Adquirente.png" alt="Ícone coração" />
+          <span>Adquirente</span>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="./img/star.png" alt="5 estrelas" class="stars" />
+        <p>“Plataforma incrível! Já doei 3 itens e adquiri 2. A comunidade é super respeitosa e o processo é muito fácil! 👏”</p>
+        <h4>Ana Costa</h4>
+        <div class="role">
+          <img src="./img/icon_userAtivo.png" alt="Ícone de reciclagem" />
+          <span>Usuária ativa</span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="products" id="adquirir">
-    <div class="container">
-      <h2>Produtos disponíveis</h2>
-      <div class="product-list">
-        <div class="product">
-          <!-- Imagem: notebook Acer -->
-          <img src="img/Notebook.png" alt="Notebook Acer" />
-          <h3>Notebook</h3>
-          <p>Funcionando perfeitamente, pronto para uso.</p>
-          <a href="#" class="btn-primary">Quero adquirir</a>
-        </div>
-        <div class="product">
-          <!-- Imagem: outro notebook Acer -->
-          <img src="img/Rectangle 22-1.png" alt="Notebook Acer com Chrome OS" />
-          <h3>Notebook</h3>
-          <p>Ideal para estudos e navegação online.</p>
-          <a href="#" class="btn-primary">Quero adquirir</a>
-        </div>
-      </div>
+<section class="cta" id="call-to-action">
+  <div class="container">
+    <h2>Pronto para fazer a diferença?</h2>
+    <p>Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez!</p>
+    <a href="#como-funciona" class="btn btn-primary">Começar Agora</a>
+    <a href="#saber-mais" class="btn btn-secondary">Saber Mais</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-about">
+      <h3>ReciclaTech</h3>
+      <p>Conectando pessoas através da sustentabilidade e tecnologia.</p>
     </div>
-  </section>
-
-  <section class="cta" id="doar">
-    <div class="container">
-      <h2>Pronto para fazer a diferença?</h2>
-      <p>Junte-se à comunidade ReciclaTech e ajude a criar um mundo mais sustentável, um eletrônico por vez.</p>
-      <a href="#doar" class="btn-primary">Começar Agora</a>
-      <a href="#como-funciona" class="btn-secondary">Saber Mais</a>
+    <div class="footer-links">
+      <h4>Links Rápidos</h4>
+      <ul>
+        <li><a href="#como-funciona">Como Funciona</a></li>
+        <li><a href="#doar">Doar</a></li>
+        <li><a href="#adquirir">Adquirir</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
     </div>
-  </section>
-
-  <footer class="footer">
-    <p>© 2025 ReciclaTech. Feito com 💚 para um mundo melhor.</p>
-  </footer>
+    <div class="footer-support">
+      <h4>Suporte</h4>
+      <ul>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#termos">Termos de Uso</a></li>
+        <li><a href="#privacidade">Privacidade</a></li>
+        <li><a href="#ajuda">Ajuda</a></li>
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h4>Redes Sociais</h4>
+      <ul class="social-icons">
+        <li><a href="#"><img src="facebook-icon.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="instagram-icon.svg" alt="Instagram"></a></li>
+        <li><a href="#"><img src="twitter-icon.svg" alt="Twitter"></a></li>
+      </ul>
+    </div>
+    <div class="footer-copy">
+      <p>© 2025 ReciclaTech. Todos os direitos reservados. Feito com para um mundo melhor.</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
