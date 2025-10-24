@@ -21,8 +21,9 @@ body {
 }
 
 img {
-  max-width: 80%;
+  max-width: 90%;
   display: right;
+  border-radius: 20px;
 }
 
 a {
@@ -536,7 +537,8 @@ a {
     width: 80%;
   }
   .category .category img {
-    max-width: 40%;
+    max-width: 20%;
+    border-radius: 10%;
   }
   .testimonial-list {
     flex-direction: column;

@@ -21,8 +21,9 @@ body {
 }
 
 img {
-  max-width: 80%;
+  max-width: 90%;
   display: right;
+  border-radius: 20px;
   
 }
 
@@ -584,9 +585,10 @@ a {
 
   .category {
     width: 80%;
-
+    
     .category img {
-    max-width: 40%;
+    max-width: 20%;
+    border-radius: 10%;
   }
   }
 
