@@ -4,27 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <title>ReciclaTech</title>
 </head>
 
 <body>
 
-  <header class="header">
-  <div class="container">
-     <img src="./img/Frame.png" alt="Logo"/>
-    <h1 class="logo">ReciclaTech</h1>
-       <nav class="nav">
-      <ul class="nav-list">
-        <li><a href="#como-funciona">Como Funciona</a></li>
-        <li><a href="#doar">Doar</a></li>
-        <li><a href="#adquirir">Adquirir</a></li>
-        <li><a href="#call-to-action">Começar Agora</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+ <header class="header">
+    <div class="container">
+      <div class="logo">
+        <img src="./img/Frame.png" alt="Logo" />
+        <h1>ReciclaTech</h1>
+      </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#como-funciona">Como Funciona</a></li>
+          <li><a href="#doar">Doar</a></li>
+          <li><a href="#adquirir">Adquirir</a></li>
+          <li><a href="#call-to-action" class="btn-nav">Começar Agora</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<section class="hero">
+ 
+ <section class="hero">
   <div class="container hero-layout">
     <div class="hero-text">
       <h2>Dê uma segunda vida aos seus eletrônicos!</h2>
@@ -38,9 +42,9 @@
       <img src="./img/simbolo-de-reciclagem-feito-de-placas-de-circuitos-eletronicos 1.png" alt="Reciclagem eletrônica" />
     </div>
   </div>
-</section>
+ </section>
 
-<section class="stats">
+ <section class="stats">
   <div class="container">
     <div class="stat">
       <h3>2.5k+</h3>
@@ -55,9 +59,9 @@
       <p>Satisfação dos usuários</p>
     </div>
   </div>
-</section>
+ </section>
 
-<section class="categories">
+ <section class="categories">
   <div class="container">
     <h2>Produtos disponíveis</h2>
     <p>Categorias mais populares</p>
@@ -82,39 +86,39 @@
       </div>
     </div>
   </div>
-</section>
+ </section>
 
-<section class="how-it-works" id="como-funciona">
+ <section class="how-it-works" id="como-funciona">
   <div class="container">
     <h2>Como funciona?</h2>
     <p>É mais fácil que trocar a pilha do controle!</p>
     <div class="columns">
-      <div class="column">
+      <div class="column" id="doar">
          <img src="img/Doadores.png" alt="Ícone de presente" />
         <h3>Para Doadores</h3>
         <p class="subtitle">Transforme lixo eletrônico em tesouro de alguém.</p>
-        <ol>
-          <li><strong>Cadastre seu eletrônico:</strong> Tire umas fotos, descreva o estado e pronto!</li>
-          <li><strong>Aguarde o match:</strong> Alguém vai se interessar pelo seu item.</li>
-          <li><strong>Combine a entrega:</strong> Vocês decidem como fazer a entrega.</li>
-        </ol>
+        <ul class="step-list">
+          <li><span class="step-icon green">1</span><strong> Cadastre seu eletrônico:</strong> Tire umas fotos, descreva o estado e pronto!</li>
+          <li><span class="step-icon green">2</span><strong> Aguarde o match:</strong> Alguém vai se interessar pelo seu item.</li>
+          <li><span class="step-icon green">3</span><strong> Combine a entrega:</strong> Vocês decidem como fazer a entrega.</li>
+        </ul>
       </div>
 
-      <div class="column">
+      <div class="column"id="adquirir">
         <img src="img/Adquirentes.png" alt="Ícone de coração" />
         <h3>Para Adquirentes</h3>
         <p class="subtitle">Encontre seu eletrônico dos sonhos sem pagar nada.</p>
-        <ol>
-          <li><strong>Explore os itens:</strong> Navegue pelos eletrônicos disponíveis.</li>
-          <li><strong>Demonstre interesse:</strong> Clique em “Tenho interesse” no item.</li>
-          <li><strong>Receba seu novo gadget:</strong> Combine com o doador e seja feliz!</li>
-        </ol>
+          <ul class="step-list">
+            <li><span class="step-icon blue">1</span><strong> Explore os itens:</strong> Navegue pelos eletrônicos disponíveis.</li>
+            <li><span class="step-icon blue">2</span><strong> Demonstre interesse:</strong> Clique em “Tenho interesse” no item.</li>
+            <li><span class="step-icon blue">3</span><strong> Receba seu novo gadget:</strong> Combine com o doador e seja feliz!</li>
+          </ul>
       </div>
     </div>
   </div>
-</section>
+ </section>
 
-<section class="testimonials">
+ <section class="testimonials">
   <div class="container">
     <h2>O que o pessoal tá falando?</h2>
     <p>Histórias reais de quem já usou</p>
@@ -148,23 +152,28 @@
       </div>
     </div>
   </div>
-</section>
+ </section>
 
-<section class="cta" id="call-to-action">
+ <section class="cta" id="call-to-action">
   <div class="container">
     <h2>Pronto para fazer a diferença?</h2>
     <p>Junte-se à nossa comunidade e ajude a criar um mundo mais sustentável, um eletrônico de cada vez!</p>
-    <a href="#como-funciona" class="btn btn-primary">Começar Agora</a>
-    <a href="#saber-mais" class="btn btn-secondary">Saber Mais</a>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="container">
-    <div class="footer-about">
-      <h3>ReciclaTech</h3>
-      <p>Conectando pessoas através da sustentabilidade e tecnologia.</p>
+    <div class="cta-buttons">
+      <a href="#como-funciona" class="btn btn-primary">Começar Agora</a>
+      <a href="#saber-mais" class="btn btn-secondary">Saber Mais</a>
     </div>
+  </div>
+ </section>
+
+ <footer class="footer">
+  <div class="container footer-layout">
+    <div class="footer-about">
+      <div class="logo-footer">
+        <img src="./img/Frame.png" alt="Logo" />
+        <h3>ReciclaTech</h3>
+      </div>
+      <p>Conectando pessoas através da sustentabilidade e tecnologia.</p>
+  </div>
     <div class="footer-links">
       <h4>Links Rápidos</h4>
       <ul>
@@ -177,7 +186,6 @@
     <div class="footer-support">
       <h4>Suporte</h4>
       <ul>
-        <li><a href="#faq">FAQ</a></li>
         <li><a href="#termos">Termos de Uso</a></li>
         <li><a href="#privacidade">Privacidade</a></li>
         <li><a href="#ajuda">Ajuda</a></li>
@@ -185,16 +193,17 @@
     </div>
     <div class="footer-social">
       <h4>Redes Sociais</h4>
+      <p>Siga-nos para novidades e atualizações!</p>
       <ul class="social-icons">
-        <li><a href="#"><img src="facebook-icon.svg" alt="Facebook"></a></li>
-        <li><a href="#"><img src="instagram-icon.svg" alt="Instagram"></a></li>
-        <li><a href="#"><img src="twitter-icon.svg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="./img/facebook.png" alt="Facebook"></a></li>
+        <li><a href="#"><img src="./img/email.png" alt="Email"></a></li>
+        <li><a href="#"><img src="./img/Twitter.png" alt="Twitter"></a></li>
       </ul>
     </div>
-    <div class="footer-copy">
-      <p>© 2025 ReciclaTech. Todos os direitos reservados. Feito com para um mundo melhor.</p>
-    </div>
   </div>
-</footer>
+  <div class="footer-copy">
+    <p>© 2025 ReciclaTech. Todos os direitos reservados. Feito com 💚 para um mundo melhor.</p>
+  </div>
+ </footer>
 </body>
 </html>
